@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+
+    <!-- link to Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat:wght@300;400;700&display=swap"
+        rel="stylesheet">
+
+    <!-- link to custom CSS -->
+    <!-- <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/styles.css"> -->
+
+
+<script defer src="bundle4c2938c7a02ec9f1ca27.js"></script></head>
+
+<body>
+
+    <!-- <div class="logo">
+            <a href="#"><img src="./src/images/Logo_01_WHITE_small.png" alt="logo"></a>
+        </div>
+
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#about">Masaż Mistrza</a></li>
+                <li><a href="#services">Oferta</a></li>
+                <li><a href="#prices">Cennik</a></li>
+                <li><a href="#opening-hours">Godziny otwarcia</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav> -->
+    <nav class="navbar">
+        <!-- logo -->
+        <div class="logo">
+            <a href="#"><img src="./src/images/Logo_01_WHITE.png" alt="logo"></a>
+        </div>
+
+        <!-- burger -->
+        <a href="#" id="toggle-btn">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+
+        <!-- navigation links -->
+        <div class="nav-links">
+            <ul>
+                <li><a href="#about">Masaż Mistrza</a></li>
+                <li><a href="#services">Oferta</a></li>
+                <li><a href="#prices">Cennik</a></li>
+                <li><a href="#opening-hours">Godziny otwarcia</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section id="about">
+            <hgroup>
+                <h1 id="studio-masazu">STUDIO MASAŻU</h1>
+                <h1 id="title">Masaż Mistrza</h1>
+                <h1 id="subtitle">to niezwykła energia</h1>
+                <p class="hero-p">Odprężenie przy blasku świec oraz cudownej muzyce relaksacyjnej, gdzie przekazuję
+                    dobrą energię i złagodzę stres.</p>
+            </hgroup>
+            <a href="#opening-hours" class="btn hero-btn">Umów masaż</a>
+        </section>
+
+        <section id="services">
+            <header class="section-header">
+                <img class="center logo" src="./src/images/Logo_01_WHITE.png" alt="logo"/>
+                <h2><span>Oferta</span></h2>
+            </header>
+            <div class="cards">
+                <figure>
+                    <img src="./src/images/full-body.webp" alt="masaż całego ciała"/>
+                    <figcaption>
+                        Masaż relaksacyjny całego ciała
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="./src/images/face.jpg" alt="masaż twarzy"/>
+                    <figcaption>
+                        Leczniczy masaż twarzy Kobido
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="./src/images/hot-stones.jpg" alt="masaż gorącymi kamieniami"/>
+                    <figcaption>
+                        Masaż gorącymi kamieniami
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="./src/images/head.jpg" alt="masaż głowy, szyi i ramion" />
+                    <figcaption>
+                        Masaż głowy, szyi i ramion
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section id="prices">
+            <header class="section-header">
+                <img class="center logo" src="./src/images/Logo_01_WHITE.png" alt="logo"/>
+                <h2>
+                    <span>
+                        Cennik
+                    </span>
+                </h2>
+            </header>
+            <article>
+                <table>
+                    <thead>
+                        <tr>
+                            <td><h3>Nazwa masażu</h3></td>
+                            <td><h3>Cena</h3></td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Masaż relaksacyjny całego ciała</td>
+                            <td>140 zł / 1 godzina</td>
+                        </tr>
+                        <tr>
+                            <td>Leczniczy masaż twarzy Kobido</td>
+                            <td>250 zł / 1,5 godziny</td>
+                        </tr>
+                        <tr>
+                            <td>Masaż gorącymi kamieniami</td>
+                            <td>150zł / 1 godzina</td>
+                        </tr>
+                        <tr>
+                            <td>Masaż głowy, szyi i ramion</td>
+                            <td>180 zł / 1 godzina</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
+        </section>
+
+        <section id="opening-hours">
+            <header class="section-header" id="contact">
+                <img class="center logo" src="./src/images/Logo_01_WHITE.png" alt="logo"/>
+                <h2>
+                    <span>
+                        Kontakt
+                    </span>
+                </h2>
+            </header>
+            <div class="tables-contact-sctn">
+                <article>
+                    <h3>Godziny otwarcia</h3>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>Poniedziałek - Piątek</td>
+                                <td>9 - 19</td>
+                            </tr>
+                            <tr>
+                                <td>Sobota</td>
+                                <td>9 - 17</td>
+                            </tr>
+                            <tr>
+                                <td>Niedziela</td>
+                                <td>nieczynne</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </article>
+                <article>
+                    <h3>Adres</h3>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td colspan="2">Angelika Wrochniak</td>
+                            </tr>
+                            <tr>
+                                <td>Zapisy telefoniczne</td>
+                                <td>
+                                    <a href="tel:503783131">
+                                        503 783 13
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <address>
+                                        ul. Świętojerska 5/7
+                                    </address>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d332.5672056149796!2d21.006639412157607!3d52.25081385330185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecc6fdf2fa68b%3A0xcc0fad43b0809be5!2s%C5%9Awi%C4%99tojerska%205%2C%2000-236%20Warszawa!5e0!3m2!1sen!2spl!4v1676839217045!5m2!1sen!2spl"
+                        width="100%" style="border:0;" allowfullscreen="" loading="lazy" title="Google maps"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </article>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-top">
+            <a href="tel:503783131" class="btn footer-btn">
+                UMÓW MASAŻ
+            </a>
+            <div class="center"> </div>
+            <img class="center" src="./src/images/Logo_01_white_combo_bigger.png" alt="combomark"/>
+        </div>
+        <div class="footer-info">
+            <hgroup>
+                <h4>O mnie</h4>
+                <p>Nazywam się Angelika Wrochniak i prowadzę studio masażu przy ul. Świętojerskiej w Warszawie.</p>
+                <p>Serdecznie zapraszam!</p>
+            </hgroup>
+
+            <hgroup>
+                <h4>Rodzaje masażu</h4>
+                <p>Masaż relaksacyjny całego ciała</p>
+                <p>Leczniczy masaż twarzy Kobido</p>
+                <p>Masaż gorącymi kamieniami</p>
+                <p>Masaż głowy, szyi i ramion</p>
+            </hgroup>
+
+            <hgroup>
+                <h4>Kontakt</h4>
+                <address>
+                    <p>mail:
+                        <span class="right-align"><a
+                                href="mailto:angaflawers17@gmail.com">angaflawers17@gmail.com</a></span>
+                    </p>
+                    <p>telefon:
+                        <span class="right-align"><a href="tel:503783131">503 783 131</a></span>
+                    </p>
+                    <p>adres:
+                        <span class="right-align"><a href="https://goo.gl/maps/2oMj8j4RfFexB6Uv8">ul. Świętojerska 5/7,
+                                Warszawa</a></span>
+                    </p>
+                </address>
+            </hgroup>
+        </div>
+        <hr>
+        <div class="center">
+            <p>Designed and coded by <a href="https://www.mokosh.dev/">Mokosh.dev</a></p>
+        </div>
+    </footer>
+
+    <!-- link to js files -->
+    <!-- <script src="./js/menu-toggle.js"></script> -->
+</body>
+
+</html>
